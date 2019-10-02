@@ -1,1 +1,19 @@
+<html>
+<head>
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="logstyle.css">
+<script type="text/javascript" src="vform.js"></script>
+    </head>
+    
+    <body>
+        <form  name="login" class="box" action="index.html" onsubmit="return vform()" method="post">
+          <h1>Login</h1>
+          <input type="text" name="uname" placeholder="Username" required>
+          <input type="Password" name="" placeholder="Password" required>
+        <input type="Submit" name="" value="Login">
+        <p>New User? click <a href="sinup.html">here</a> to sign-up</p>
+        <a href="frgtpas.html">Forgot Password?</a>
+         </form>
+    </body>
+    </html>
 
